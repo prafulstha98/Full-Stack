@@ -128,16 +128,16 @@
 // console.log("Size of string =", size);
 
 //for in loop
-// const student = {
-//   name: "Arbin Maharjan",
-//   roll_no: 4,
-//   age: 20,
-//   isPass: true,
-// };
+const student = {
+  name: "Arbin Maharjan",
+  roll_no: 4,
+  age: 20,
+  isPass: true,
+};
 
-// for (let key in student) {
-//   console.log(key);
-// }
+for (let key in student) {
+  console.log("value =", student[key]);
+}
 
 //print numbers from 0 to 100 Qs.1
 
@@ -148,11 +148,9 @@
 // }
 
 //Practice Qs. 2
-let gameNum = 36;
-let userNum = prompt("Enter the number: ");
-
-while (userNum !== gameNum);
-{
-  userNum = prompt("You entered the wrong number");
-}
-console.log("Congratulations, you entered the right number");
+// let gameNum = 3432;
+// let userNum = prompt("Enter the number: ");
+// while (userNum != gameNum) {
+//   userNum = prompt("You entered the wrong number. Please try again!!!");
+// }
+// console.log("You entered the right number.");
