@@ -1,0 +1,12 @@
+div {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(219, 203, 203);
+  border: 2px solid black;
+  display: inline-block;
+}
+
+#box4 {
+  background-image: url("../pics/dog-box.jpg");
+  background-size: cover;
+}
